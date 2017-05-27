@@ -8,32 +8,31 @@
     <title>Service</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
-    <div id="top" class="header">
+    <header id="top" class="header">
         <div class="text-vertical-center">
             <h1>Aggregation web-service of exchange rates</h1>
             <h3>Created by Tatiana Zhydeikina</h3>
             <br>
             <form action="http://localhost:63242/CurrencyAggregationWebService.asmx/GetCurrenciesAggregation" method="POST">
                 <label for="dateStart">Start date:</label>
-                <input class="frmInput" type="date" size="50" name="dateStart"><br>
+                <input class="frmInput" type="date" size="50" name="dateStart" value="2016-01-01"><br>
                 <label for="dateEnd">End date:</label>
-                <input class="frmInput" type="date" size="50" name="dateEnd"><br>
+                <input class="frmInput" type="date" size="50" name="dateEnd" value="2017-01-03"><br>
                 <label for="mode">Mode:</label>
                 <select name="mode">
                     <option value="0">First variant</option>
                     <option value="1">Second variant</option>
                 </select><br>
-                <input type="submit" value="Result" class="button">
-                <%--<a href="#about" class="btn btn-dark btn-lg">Result</a>--%>
+                <input type="submit" value="Result" class="btn btn-dark btn-lg">
             </form>
         </div>
-    </div>
+    </header>
 	
     <footer class="call-to-action bg-primary">
         <div class="container">
