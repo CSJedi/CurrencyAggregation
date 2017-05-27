@@ -106,7 +106,9 @@
     <Content Include="Extencion\font-awesome-4.7.0\css\font-awesome.css" />
     <Content Include="Extencion\font-awesome-4.7.0\css\font-awesome.min.css" />
     <Content Include="Extencion\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
-    <Content Include="styles\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="styles\font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="styles\font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="styles\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
     <Content Include="styles\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="styles\img\bg.jpg" />
     <Content Include="packages.config" />
@@ -158,6 +160,39 @@
     <Content Include="Extencion\font-awesome-4.7.0\scss\_screen-reader.scss" />
     <Content Include="Extencion\font-awesome-4.7.0\scss\_stacked.scss" />
     <Content Include="Extencion\font-awesome-4.7.0\scss\_variables.scss" />
+    <Content Include="styles\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="styles\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="styles\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="styles\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="styles\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="styles\font-awesome-4.7.0\less\animated.less" />
+    <Content Include="styles\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="styles\font-awesome-4.7.0\less\core.less" />
+    <Content Include="styles\font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="styles\font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="styles\font-awesome-4.7.0\less\icons.less" />
+    <Content Include="styles\font-awesome-4.7.0\less\larger.less" />
+    <Content Include="styles\font-awesome-4.7.0\less\list.less" />
+    <Content Include="styles\font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="styles\font-awesome-4.7.0\less\path.less" />
+    <Content Include="styles\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="styles\font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="styles\font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="styles\font-awesome-4.7.0\less\variables.less" />
+    <Content Include="styles\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="styles\font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="styles\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="styles\font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="styles\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="styles\font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="styles\font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="styles\font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="styles\font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="styles\font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="styles\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="styles\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="styles\font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="styles\font-awesome-4.7.0\scss\_variables.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -224,10 +259,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="obj\Debug\TempPE\" />
-    <Folder Include="styles\font-awesome-4.7.0\css\" />
-    <Folder Include="styles\font-awesome-4.7.0\fonts\" />
-    <Folder Include="styles\font-awesome-4.7.0\less\" />
-    <Folder Include="styles\font-awesome-4.7.0\scss\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
