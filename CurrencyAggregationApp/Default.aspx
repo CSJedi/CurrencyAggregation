@@ -1,18 +1,15 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="CurrencyAggregationApp.Default" %>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Service</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
 </head>
-
 <body>
     <header id="top" class="header">
         <div class="text-vertical-center">
@@ -21,19 +18,18 @@
             <br>
             <form action="http://localhost:63242/CurrencyAggregationWebService.asmx/GetCurrenciesAggregation" method="POST">
                 <label for="dateStart">Start date:</label>
-                <input class="frmInput" type="date" size="50" name="dateStart" value="2016-01-01"><br>
+                <input class="form-control" type="date" name="dateStart" value="2016-01-01"><br>
                 <label for="dateEnd">End date:</label>
-                <input class="frmInput" type="date" size="50" name="dateEnd" value="2017-01-03"><br>
+                <input class="form-control" type="date" name="dateEnd" value="2017-01-03"><br>
                 <label for="mode">Mode:</label>
-                <select name="mode">
+                <select class="form-control" name="mode">
                     <option value="0">First variant</option>
                     <option value="1">Second variant</option>
                 </select><br>
-                <input type="submit" value="Result" class="btn btn-dark btn-lg">
+                <input type="submit" value="Result" style="margin: 0% 40%; width: 200px !important;" class="btn btn-dark btn-lg">
             </form>
         </div>
     </header>
-	
     <footer class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
@@ -60,7 +56,5 @@
         </div>
         <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
-
 </body>
-
 </html>
