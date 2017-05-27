@@ -106,6 +106,7 @@
     <Content Include="Extencion\font-awesome-4.7.0\css\font-awesome.css" />
     <Content Include="Extencion\font-awesome-4.7.0\css\font-awesome.min.css" />
     <Content Include="Extencion\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="styles\font-awesome-4.7.0\HELP-US-OUT.txt" />
     <Content Include="styles\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="styles\img\bg.jpg" />
     <Content Include="packages.config" />
@@ -223,6 +224,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="styles\font-awesome-4.7.0\css\" />
+    <Folder Include="styles\font-awesome-4.7.0\fonts\" />
+    <Folder Include="styles\font-awesome-4.7.0\less\" />
+    <Folder Include="styles\font-awesome-4.7.0\scss\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
