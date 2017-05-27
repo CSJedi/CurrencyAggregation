@@ -79,3 +79,8 @@ footer {
 a{
 	color:white;
 }
+
+#email {
+    color:white; 
+    display: inline-block;
+}

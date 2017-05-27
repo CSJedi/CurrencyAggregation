@@ -36,7 +36,7 @@
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h4><strong>Test task</strong></h4>
                     <ul class="list-unstyled">
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="zhidejkina@gmail.com">zhidejkina@gmail.com</a>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <p id="email">zhidejkina@gmail.com</p>
                         </li>
                     </ul>
                     <br>
